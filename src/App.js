@@ -1,6 +1,8 @@
 import React from 'react'
 import {Navbar } from './components'
 import {AboutUs, SpecialMenu, Chef, Intro, Gallery, FindUs, Footer, Header, Laurels} from './container'
+import './App.css'
+import './index.css'
 
 const App = () => {
   return (
