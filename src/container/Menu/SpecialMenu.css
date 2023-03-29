@@ -35,7 +35,7 @@
 }
 .app__specialMenu-menu_img img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 .app__specialMenu-menu_items {
     display: flex;
@@ -49,6 +49,14 @@
     }
     .app__specialMenu-menu_img img {
         height: 920px;
+    }
+}
+@media screen and (min-width: 2000px) {
+    .app__specialMenu-menu_img {
+        width: 800px;
+    }
+    .app__specialMenu-menu_img img {
+        height: 1220px;
     }
 }
 @media screen and (max-width: 1150px) {
@@ -69,4 +77,5 @@
         font-size: 35px;
         line-height: 48.5px;
     }
+    
 }
